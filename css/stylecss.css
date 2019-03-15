@@ -1,0 +1,277 @@
+/* sytyle for main div*/
+#maindiv{
+/*background-color:#F6F6F6;*/
+	text-align:left;
+	padding:20px;
+	margin:20px auto;
+	min-width:300px;
+	max-width:600px;
+	position:relative;
+	max-height: 1000;
+	width: 600%;
+	height: 1000;
+ 	background-image: url("../img/backgroundimg.jpg");
+
+}
+/* sytyle for left div*/
+#leftdiv{
+	float: left;
+	width: 40%;
+	background-color: black;
+	height:1000; 
+	margin:20px auto;
+/*padding:20px;*/
+	background-image: url("../img/imgleft.jpg");
+}
+/* sytyle for right div*/
+#rightdiv{
+background-image: url("../img/rightbackimg.jpg");	
+float: right;
+background-color: white;
+width: 60%;
+height:1000;
+margin:20px auto;
+/*padding:20px;*/
+
+}
+/* sytyle for body*/
+body
+{
+	
+	font-family: 'Lato', sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	/*color:#000000;*/
+	text-align:center;
+	margin:0;
+	padding:0;
+	line-height:1.5em;
+}
+header{
+	text-align:center;
+	position:relative;
+	z-index:1;
+}
+
+h1{
+	font-size:1.4em;
+	font-style:italic;
+	font-weight:bold;
+	margin:5px 0;
+	text-align: center;
+}
+img{
+	height: 20%;
+	width: 150px;
+	border-radius: 50%;
+	padding: 25%;
+	margin-top: 0;
+	border-color: black;
+
+}
+article{
+	padding-left:  10%;
+	padding-right: 20%;
+	word-spacing: 2px;
+	color: white;
+	margin-left: 15px;
+}
+/* sytyle for box */
+#box{
+	/*background-c
+	olor: white;*/
+	margin-top: 10px;
+	border-width: thick;
+	
+	width: 30px;
+	height: 30px;
+	padding-left:  20%;
+	padding-right: 20%;
+    border:1px solid white;
+    margin-left: 20%;
+      margin-right: 20%;
+}
+/* sytyle for  contact details*/
+#contactstyle{
+	
+	
+	 text-align: center; 
+	 margin-top: 5px; 
+	 padding-right: 20px;
+	 	 /*margin-left:0.2px; 
+	 margin-right: 0.2px;*/
+}
+#contactstyle1{
+	 text-align: center; 
+	
+ 
+	
+	  margin-bottom: 25px; margin-left: -1px
+}
+/* sytyle for list*/
+li
+{
+	list-style-image: url("../img/minus.jpg");
+	
+	list-style-image.width: 10px;
+	list-style-image.height: 10px;
+}
+p{
+	 color: white; 
+	 text-align: center;
+	font-size:12px;
+}
+hr
+{
+	border-radius: 25%;
+	width: 550%; 
+	border: 2px solid white;
+}
+#listyle
+{
+		list-style-image: url("img/minus.jpg");
+		color: black;
+	list-style-image.width: 10px;
+	list-style-image.height: 10px;
+}
+/* style for left paragraph */
+#leftptag
+{
+	color: black;"
+	text-align: center;
+	margin-left: -10;
+}
+/* style for right side box */
+#boxrigt{
+	/*background-color: white;*/
+	margin-top: 10px;
+	border-width: thick;
+	width: 40%;
+	height: 35px;
+	padding-left:  0.5%;
+	padding-right: 20%;
+    border:1px solid black;
+    margin-left: 30%;
+      margin-right: 20%;
+      display: inline-block;
+}
+/* style for right article */
+.rightarticle
+{
+	display:block;
+	padding-left:  15%;
+	padding-right: 15%;
+	padding-top: 10%;
+	word-spacing: 2px;
+	color: black;
+	margin-left: 15px;
+
+}
+.vericaline{
+	border:2px ;
+  border-color: black;
+  height: 10;
+}
+section{
+	padding-top: 5%;
+	display:block;
+	margin-left: 20%;
+}
+.sectionclass{
+padding-top: 3%;
+}
+.simpleartical{
+	display:block;
+	padding-left:  15%;
+	padding-right: 15%;
+	padding-top: 5%;
+	word-spacing: 2px;
+	color: black;
+	margin-left: 15px;
+}
+/* style for last box */
+.lastbox
+{
+	margin-top: 25px;
+	border-width: thick;
+	width: 200px;
+	height: 30px;
+	padding-left: 0.2%;
+	padding-right: 10%;
+    border:1px solid black;
+    margin-left: 30%;
+   margin-bottom: 10%
+      margin-right: 20%;
+}
+
+#sectionstyle{
+	padding-top: 10%;
+	text-align: justify;
+	text-align: left;
+
+	margin-left: 0.5%;
+
+}
+
+h3{
+	font-size:1em;
+	font-weight:bold;
+	margin:1px 0;
+	text-align: center;
+	margin-left: 5px;
+	text-align: center;
+}
+.h3style{
+	font-size:1em;
+	font-weight:bold;
+	margin:1px 0;
+	text-align: left;
+	margin-left: 50px;
+}
+.iconstyle{
+	margin-left: 2px;
+}
+tr{
+
+	color: white;
+}
+.contacttbstyle{
+	margin-left: 20px;
+	font-size:12px;
+
+}
+@media only screen and (max-device-width: 480px) {
+body{font-size:18px;}
+#maindiv{
+/*background-color:#F6F6F6;*/
+	text-align:left;
+	padding:20px;
+	margin:20px auto;
+	min-width:300px;
+	max-width:600px;
+	position:relative;
+	max-height: 640;
+	width: 100%;
+	height: 1000;
+ 	background-image: url("../img/backgroundimg.jpg");
+
+
+}
+#rightdiv{
+background-image: url("../img/rightbackimg.jpg");	
+float: right;
+background-color: white;
+width: 60%;
+height:550;
+margin:20px auto;
+/*padding:20px;*/
+
+}
+}
+
+
+tr:hover{
+	
+	background-color: silver;
+}
+
